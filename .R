@@ -44,4 +44,4 @@ for (i in 1:70) {
   webpage <- read_html(urllink[i])
   Review_Data <- rbind(Review_Data, data.frame(review_id, title, rating_date, review, stringsAsFactors = FALSE))
 }
- write.csv(Review_Data, file = "out/tables/Review_Data.csv", row.names = FALSE)
+ write.csv(Review_Data, file = "data/out/tables/Review_Data.csv", row.names = FALSE)
