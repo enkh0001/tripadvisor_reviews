@@ -16,7 +16,7 @@ morepg=as.numeric(morepglist)
 urllinkpre=paste(strsplit(urllinkmain,"Reviews-")[[1]][1],"Reviews",sep="")
 urllinkpost=strsplit(urllinkmain,"Reviews-")[[1]][2]
 
-urllink=rep(NA,length(morepg)+1)
+urllink=rep(length(morepg)+1)
 
 urllink[1]=urllinkmain
 for(i in 1:length(morepg)){
