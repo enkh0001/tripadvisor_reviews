@@ -1,4 +1,5 @@
 library(rvest)
+options(warn=-1)
 
 url <- "https://www.tripadvisor.com.sg/Attraction_Review-g294265-d324752-Reviews-Esplanade_Theatres_on_the_Bay-Singapore.html"
 
